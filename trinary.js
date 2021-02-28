@@ -84,9 +84,9 @@ const deleteFromTrinaryTree = (element, tree) => {
 // ---------------------------Execution------------------------ //
 
 const arr = [5, 4, 9, 5, 7, 10, 2, 2]
+console.log('Given Array: ', arr)
 
 buildTrinaryTree(arr)
-
 console.log('myTrinaryTree after insertion', myTrinaryTree)
 
 deleteFromTrinaryTree(7, myTrinaryTree)
